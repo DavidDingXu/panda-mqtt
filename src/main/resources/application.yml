@@ -1,0 +1,14 @@
+
+server:
+  port: 8080
+ali:
+  mqtt:
+    accessKey: xxx
+    secretKey: xxx
+    groupId: GID_ROBOT
+    namesrvAddr: xxx
+    sendMsgTimeoutMillis: 3000
+    #消费者线程固定位50个
+    consumeThreadNums: 50
+#    用于同步调用返回发送的topic
+    replyParentTopic: rrpc
