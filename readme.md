@@ -1,3 +1,4 @@
+知乎地址：https://zhuanlan.zhihu.com/p/59486024
 # mqtt工具包的使用
 ## 1. 在yml配置中添加相关配置，配置示例如下，其中xxx改为自己使用的即可
 
