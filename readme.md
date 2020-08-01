@@ -1,4 +1,9 @@
 知乎地址：https://zhuanlan.zhihu.com/p/59486024
+
+- 封装了RocketMQ实现MQTT订阅与发布的实现细节；
+- 实现了注解式分发处理，可利用如MqttController, MqttTopicMapping等相关自定义注解的方式来统一订阅MQTT的Topic以及消息处理的分发；
+- 使用了一套请求和响应的同步机制来达到PUB/SUB异步通信的伪同步调用。
+
 # mqtt工具包的使用
 ## 1. 在yml配置中添加相关配置，配置示例如下，其中xxx改为自己使用的即可
 
